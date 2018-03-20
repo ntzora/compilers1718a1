@@ -52,12 +52,7 @@ td = { 'q0':{ '0':'q1', '1':'q1', '2':'q2', '3':'q3', '4':'q3', '5':'q3', '6':'q
 
 # Αντικαταστήστε με το δικό σας λεξικό καταστάσεων αποδοχής...
 ad = { 'q6':'TIME_TOKEN',
-       'q0':'ERROR_TOKEN',
-       'q1':'ERROR_TOKEN',
-       'q2':'ERROR_TOKEN',
-       'q3':'ERROR_TOKEN',
-       'q4':'ERROR_TOKEN',
-       'q5':'ERROR_TOKEN',
+       ('q0', 'q1', 'q2', 'q3', 'q4', 'q5'):'ERROR_TOKEN',
      }
 
 
